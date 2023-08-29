@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&display=swap');
+
+
+* {
+    margin: 0; /* zerar a margem de todos os elementos */
+    padding: 0; /* zerar o espaçamento interno de todos os elementos */
+    box-sizing: border-box; /* incluir padding e borda no cálculo do tamanho do elemento */
+    font-family: 'Poppins', sans-serif;
+}
+
+:root { 
+    --red: #bd2f28;
+    --white: #f3e4cf;
+
+}
+
+
+/* estilos.css */
+
+body {
+    background-color:  var(--white)
+}
+
+/* estilos.css */
+
+header {
+    background-color: #333; /* cor de fundo */
+    color: #fff; /* cor do texto */
+    text-align: center; /* alinhamento centralizado */
+    padding-top: 20px; /* espaçamento interno superior */
+    padding-bottom: 20px; /* espaçamento interno inferior */
+    padding-left: 20px; /* espaçamento interno esquerdo */
+    padding-right: 20px; /* espaçamento interno direito */
+    box-shadow: 0px 12px 22px -3px rgba(0,0,0,0.36);
+}
+
+/* estilos.css */
+
+header {
+    background-color: var(--red);
+    color: #fff;
+    text-align: center;
+}
+
+/* estilos.css */
+
+
+nav ul {
+    list-style: none; /* Remove o estilo da lista */
+}
+
+nav li {
+    display: inline; /* Deixa os itens da lista em linha */
+    margin-right: 20px; /* Adiciona um espaçamento de 20px entre os itens da lista */
+}
+
+nav a {
+    text-decoration: none; /* Remove o sublinhado dos links */
+    font-weight: bold; /* Deixa o texto em negrito */
+    color: #fff; /* Cor do texto */
+    margin: 10px;
+}
+
+nav a:hover { 
+    background-color: #df554e;
+    transition: all 0.5;
+    border-radius: 10px;
+}
+
+/* estilos.css */
+
+main {
+    padding: 20px; /* espaçamento interno */
+    overflow: hidden; /* esconde o conteúdo que ultrapassa o tamanho do elemento */
+}
+
+/* estilos.css */
+
+.card {
+    padding: 10px;
+    margin: 10px;
+    background-color: var(--white);
+    box-shadow: 0px 10px 20px -4px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.5s ease;
+    cursor: pointer;
+    
+}
+
+.card:hover {
+    transform: scale(1.05);
+}   
+
+.cards {   
+    display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 2rem;
+}
+
+button {    
+    background-color: var(--red);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+a { 
+    color: #fff;
+    text-decoration: none;
+}
+
+button:hover {  
+    background-color: #df554e;
+    transition: all 0.9;
+}
+
+
+
+/* estilos.css */
+
+footer {
+    background-color:   var(--red);
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
