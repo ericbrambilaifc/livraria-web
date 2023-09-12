@@ -262,12 +262,6 @@ button {
     
 }
 
-.input-container-file input[type="file"] {
-    display: none;
-}
-
-
-
 @keyframes opacidade {    
     0%    {   
         transform: translateY(-10px);   
